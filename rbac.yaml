@@ -4,7 +4,7 @@ metadata:
   namespace: default
   name: aamv-role
 rules:
-  - apiGroups: [""] # "" indicates the core API group
+  - apiGroups: [""]
     resources: ["pods", "configmaps"]
     verbs: ["get", "watch", "list"]
 

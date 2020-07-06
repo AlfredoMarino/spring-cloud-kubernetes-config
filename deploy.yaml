@@ -27,7 +27,6 @@ spec:
     spec:
       containers:
         - name: config-example
-          image: config-example
-          imagePullPolicy: Never
+          image: aamv/spring-cloud-kubernetes-config
           ports:
             - containerPort: 8080

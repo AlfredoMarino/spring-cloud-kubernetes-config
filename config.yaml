@@ -4,5 +4,5 @@ metadata:
   name: config-example
 data:
   application.properties: |-
-    welcome.message=config-map -> Hello aamv from app.properties
-    message=config-map -> Hi from app.properties
+    welcome.message=config-map -> message log scheduled
+    message=config-map -> message from RestController

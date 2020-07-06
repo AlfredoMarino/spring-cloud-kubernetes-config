@@ -25,6 +25,7 @@ spec:
       labels:
         app: config-example
     spec:
+      serviceAccountName: aamv-service-account
       containers:
         - name: config-example
           image: aamv/spring-cloud-kubernetes-config
